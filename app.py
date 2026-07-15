@@ -181,7 +181,6 @@ with col_logo1:
     st.image("fgv_ceri_logo.png", use_container_width=True)
 
 # Menu de seleção das Dinâmicas
-st.sidebar.title("Navegação")
 opcao_dinamica = st.sidebar.radio(
     "Escolha a Dinâmica para Responder:",
     [

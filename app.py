@@ -178,18 +178,7 @@ def append_to_sheet(sheet_name, row_data):
 # --- EXIBIÇÃO DE LOGOS (TOP) ---
 col_logo1, col_logo2 = st.columns([1.2, 1])
 with col_logo1:
-    st.image("water_lab_logo.png", use_container_width=True)
-with col_logo2:
     st.image("fgv_ceri_logo.png", use_container_width=True)
-
-# --- CABEÇALHO DO SITE ---
-st.markdown("""
-    <div class="header-container" style="margin-top: 10px; padding: 20px 15px;">
-        <div class="header-title" style="font-size: 1.45rem; margin: 0; font-weight: 600; line-height: 1.4;">
-            Plataforma Virtual do Workshop WaterLab para Coleta de Respostas
-        </div>
-    </div>
-""", unsafe_allow_html=True)
 
 # Menu de seleção das Dinâmicas
 st.sidebar.title("Navegação")

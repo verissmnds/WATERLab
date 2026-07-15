@@ -13,7 +13,7 @@ except ImportError:
 
 # Configuração de Página com Tema
 st.set_page_config(
-    page_title="Water Lab - Coleta de Dinâmicas",
+    page_title="Workshop WaterLAB",
     page_icon="💧",
     layout="centered"
 )
@@ -184,7 +184,7 @@ with col_logo2:
 
 # --- CABEÇALHO DO SITE ---
 st.markdown("""
-    <div class="header-container" style="margin-top: 15px; padding: 25px 20px;">
+    <div class="header-container" style="margin-top: 10px; padding: 20px 15px;">
         <div class="header-title" style="font-size: 1.45rem; margin: 0; font-weight: 600; line-height: 1.4;">
             Plataforma Virtual do Workshop WaterLab para Coleta de Respostas
         </div>

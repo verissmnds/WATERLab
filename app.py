@@ -176,7 +176,8 @@ def append_to_sheet(sheet_name, row_data):
         return False
 
 # --- EXIBIÇÃO DE LOGOS (TOP) ---
-col_logo1, col_logo2 = st.columns([1.2, 1])
+col_logo1, col_logo2 = st.columns([0.6, 1.4])
+
 with col_logo1:
     st.image("fgv_ceri_logo.png", use_container_width=True)
 

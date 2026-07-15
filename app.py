@@ -598,6 +598,6 @@ elif opcao_dinamica == "07. Canvas de Desenho de Intervenção":
 st.markdown("""
     <hr style="border: 0.5px solid #dddddd; margin-top: 50px; margin-bottom: 20px;">
     <div style="text-align: center; color: #555555; font-size: 0.85rem; padding-bottom: 20px;">
-        Aplicação desenvolvida por <b>Bruna Verissimo</b>, última atualização 15 de julho de 2026.
+        Aplicação desenvolvida por <b>FGV CERI</b>, última atualização 15 de julho de 2026.
     </div>
 """, unsafe_allow_html=True)
